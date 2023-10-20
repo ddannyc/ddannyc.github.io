@@ -45,6 +45,7 @@ Thread.new(arg) { |arg| do_stuff arg }
 Concurrent::Promises.future(arg) { |arg| do_stuff arg }
 # => #<Concurrent::Promises::Future:0x00000f pending>
 ```
+通过传参的方式传递future参数。
 
 
 ### 异常处理
