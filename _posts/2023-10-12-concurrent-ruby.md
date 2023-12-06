@@ -91,3 +91,11 @@ end
     map { Concurrent::Promises.future_on(:fast, 0, &count).run.value! }.
     all? { |v| v == 5 }                  # => true
 ```
+
+### Chain
+promises的一大优点是可以通过chain连接方法调用而不阻塞当前线程。
+```ruby
+then   # promise状态fulfill时执行
+rescue # promise reject时执行
+chain  # 总是会执行 
+```
