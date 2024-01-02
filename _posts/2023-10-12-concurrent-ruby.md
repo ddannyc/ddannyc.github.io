@@ -6,7 +6,7 @@ tags: ruby
 
 > Modern concurrency tools for Ruby. Inspired by Erlang, Clojure, Scala, Haskell, F#, C#, Java, and classic concurrency patterns.
 
-根据官网里的一句介绍，可以了解到Concurrent Ruby是一个吸收了各种语言和经典并发模式思想的一个现代的Ruby并发工具（框架）。
+Concurrent Ruby是一个吸收了各种语言和经典并发模式思想的一个现代的Ruby并发工具（框架）。
 
 
 
